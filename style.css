@@ -249,3 +249,66 @@ main{
     gap: 8px;
     flex-wrap: wrap;
 }
+
+
+/* Contacts block */
+.contact{
+    padding: 50px 0;
+}
+
+.contact-content{
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.contact-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: var(--text-secondary);
+}
+
+.contact-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact-link{
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--bg-card);
+    color: var(--text-primary);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 16px 32px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    justify-content: center;
+    min-width: 280px;
+    transition: all 0.3s ease;
+}
+
+.contact-link:hover{
+    background: var(--primary-color);
+    border-color: var(--primary-light);
+    box-shadow: 0 4px 12px rgba(8, 145, 178, 0.3);
+    transform: translateY(-2px);
+}
+
+
+/* FOOTER */
+
+.footer{
+    padding: 40px 0;
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+}
+
+.footer p{
+    font-size: 14px;
+    color: var(--text-muted);
+}
